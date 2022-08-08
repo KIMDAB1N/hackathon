@@ -31,7 +31,7 @@ ul {
     float: right;
     width: 17%;
     height: 80px;
-    background-color: #D4F5AE;
+    background-color: #FFFFFF;
 }
 
 #intro nav ul li {
@@ -55,7 +55,7 @@ ul {
 .form {
     position: relative;
     z-index: 1;
-    background:#FFFFFF;
+    background:#D4F5AE;
     max-width: 360px;
     margin: 0 auto 100px;
     padding: 45px;
@@ -135,9 +135,7 @@ ul {
 }
 
 body {
-    background: #D4F5AE;
-    background: #D4F5AE;
-    background: linear-gradient(90deg, #D4F5AE 0%, #D4F5AE 50%);
+    background: #FFFFFF;
     font-family: 'Uchen', serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;      
