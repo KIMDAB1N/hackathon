@@ -1,0 +1,100 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+
+    <link rel="stylesheet" href="mypage.css">
+</head>
+<body>
+<div class="main">
+    <h2>My Page</h2>
+    <div class="mypage">
+    <div class="left">
+        <div class="left_item_name">NAME</div>
+        <div class="left_item_name">SCHOOL</div>
+        <div class="left_item_name">MAJOR</div>
+        <div class="left_item_name">GRADE</div>
+        <div class="left_item_name">E-MAIL</div>
+    </div>
+
+
+        <div class="profil">
+            <!-- <img class="profil_img" src="/사진/여우.jpg" alt="profil_img">
+            <div class="img_name">PROFIL</div>
+            <form method="post" enctype="multipart/form-data">
+                <div class="button">
+                    <label for="chooseFile">
+                        <img class="profil_img" src="/사진/반투명.png">
+                    </label>
+                </div>
+                <input type="file" id="chooseFile" name="chooseFile" accept="image/*" onchange="loadFile(this)">
+            </form> -->
+
+            <div class="container">
+                <div class="image-upload" id="image-upload">
+        
+                    <form method="post" enctype="multipart/form-data">
+                        <div class="button">
+                            <label for="chooseFile">
+                                <img class="profil_img" src="/사진/반투명.png">
+                            </label>
+                        </div>
+                        <input type="file" id="chooseFile" name="chooseFile" accept="image/*" onchange="loadFile(this)">
+                    </form>
+        
+                    <div class="fileContainer">
+                        <div class="fileInput">
+                            <p>사진: </p>
+                            <p id="fileName"></p>
+                        </div>
+                        <div class="buttonContainer">
+                            <div class="submitButton" id="submitButton">등록</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="image-show" id="image-show"></div>
+            </div>
+        </div>
+
+
+    <div class="right">
+        <div class="right_item_name">ID</div>
+        <div class="right_item_name">PW</div>
+        <div class="right_item_name">NICK_NAME</div>
+        <a class="info" onclick=""><div class="right_item_name">개인 정보 수정</div></a>
+        <a class="info" onclick=""><div class="right_item_name">회원 탈퇴</div></a>
+    </div>
+    </div>
+</div>
+
+<div class="side">
+    <div class="sub_name">
+        <h2>작성한 게시글</h2>
+        <h2>
+            <a class="plus" onclick="">+ 더보기</a>
+        </h2>
+    </div>
+    <div class="license">
+    </div>
+</div>
+
+<div class="side">
+    <div class="sub_name">
+        <h2>찜 한 자격증</h2>
+        <h2>
+            <a class="plus" onclick="">+ 더보기</a>
+        </h2>
+    </div>
+    <div class="license">
+    </div>
+</div>
+
+<script src="profil.js"></script>
+</body>
+</html>
