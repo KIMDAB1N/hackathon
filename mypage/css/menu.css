@@ -45,6 +45,7 @@
     pointer-events: none;
     transform: translateY(-10px);
     transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+    z-index: 1;
   }
   
   .dropdown.active > .link + .dropdown-menu {
