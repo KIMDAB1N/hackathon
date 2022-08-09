@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/board_detail.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+  </head>
+  <body>
+    <script src="../js/PostList.js"></script>
+    <div class="BoardDetailWrapper">
+      <div class="BoardDetailHeader">
+        <input type="text" class="search" />
+        <span class="material-symbols-outlined"> search </span>
+        <h1 id="majorTitle">학과 게시판</h1>
+      </div>
+      <article class="BoardDetail">
+        <ul id="ul"></ul>
+      </article>
+      <div class="BoardFooter">
+        <button onclick="goWritePost()">글쓰기</button>
+        <button>좋아요 누른 글</button>
+        <button>내가 쓴 글</button>
+        <button>저장 해놓은 글</button>
+      </div>
+      <div class="BoardPaging">
+        <div>◀</div>
+        <div><b>1</b></div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>▶</div>
+      </div>
+    </div>
+
+    <script src="../js/major.js"></script>
+  </body>
+</html>
