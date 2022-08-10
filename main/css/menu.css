@@ -2,11 +2,11 @@
     /* background-color: #F3F3F3; */
     display: flex;
     align-items: baseline;
-    padding: .5rem;
+    /* padding: .5rem; */
     top: 0;
     z-index: 1;
     position: absolute;
-    line-height: 61px;
+    line-height: 77px;
     gap: 2rem;
     margin-left: 500px;
     /* width: 200px; */

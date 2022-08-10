@@ -4,6 +4,7 @@
     padding:0;
     text-decoration: none;
     list-style: none;
+    font-family: 'Jua', sans-serif;
     }
 /* INPUT 가리기 */
 .section input[id*="slide"] {
@@ -83,17 +84,6 @@
     z-index: 1;
     height: 77px;
 }
-/* 기본 메뉴바 css 정리 */
 
-/* 게시판 css 정리 */
-.board{
-    background-color: powderblue;
-    height: 500px;
-    
-}
-/* 풋터 css 정리 */
-.footer{
-    height: 300px;
-    background-color: bisque;
-}
+
 

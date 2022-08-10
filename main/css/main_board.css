@@ -1,20 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Single+Day&family=Uchen&display=swap');
+.board{
+    height: 500px;
+    width: 1440px;
+}
 
 .mainBoardWrapper{
     position: relative;
-    width: 90%;
+    width: 100%;
     margin: 0px auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    font-family: 'Uchen', serif;
 }
-
-.mainBoardTitle {   
-    position: relative;
-    top: 10px;
-    left: 30px;
-}
-
 
 .mainBoardTitle > button{
     float: right;
