@@ -84,7 +84,7 @@ h2{
 
 
 /*사진*/
-.container {
+.container_img {
     display: flex;
     flex-direction: column;
     justify-content: center;
