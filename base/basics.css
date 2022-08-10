@@ -1,0 +1,23 @@
+* { 
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Jua', sans-serif;
+    }
+/* 로고 포지션 */
+.logo{
+    width: 200px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 77px;
+}
+.All_header{
+    height: 77px;
+    border-bottom: 1px solid greenyellow;
+}
+/* 이거는 지워도 됩니다 예시 */
+.you_want{
+    height: 500px;
+}
