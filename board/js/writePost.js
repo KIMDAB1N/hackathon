@@ -1,9 +1,9 @@
-// getItem localStoarge에 저장한 데이터를 가져오기
-const PostListString = window.localStorage.getItem("postList");
+// major 데이터베이스가져오기
+const majorString = window.localStorage.getItem("major");
 
 // 가져온 JSON 문자열을 객체로 변환
-const PostList = JSON.parse(PostListString);
-console.log(PostList);
+const majorList = JSON.parse(majorString);
+console.log(majorList.engineering);
 
 // DOM 요소 접근
 const inputForm = document.querySelector("#inputForm"); // form요소
@@ -43,15 +43,9 @@ inputForm.addEventListener("submit", (event) => {
 });
 PostTitle = "";
 PostContent = "";
-console.log(PostList);
+// console.log(PostList);
 
 // h1 요소  title 데이터 가져와서 렌더링하기
-const majorString = window.localStorage.getItem("major");
-
-// 가져온 JSON 문자열을 객체로 변환
-const majorList = JSON.parse(majorString);
-console.log(majorList.engineering);
-
 const h1Title = document.querySelector("#majorTitle");
 console.log(h1Title);
-h1Title.innerText = majorList.engineering[0];
+h1Title.innerText = String(Object.keys(majorList.engineering[0]));

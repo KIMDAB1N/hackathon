@@ -1,19 +1,23 @@
 // 학과 저장하는 객체
 const major = {
+  // 학과별 데이터베이스
   engineering: [
-    "기계공학과",
-    "컴퓨터공학과",
-    "전기-전자공학과",
-    "환경공학과",
-    "건축공학과",
+    // 계열별로 나누고 그 안에 학과별로 나눔
+    { 기계공학과: [] }, // 기계 공학과 게시글 리스트
+    { 컴퓨터공학과: [] },
+    { 전기_전자공학과: [] },
+    { 환경공학과: [] },
+    { 건축공학과: [] },
+  ],
+  business: [
+    { 경제학과: [] },
+    { 경영학과: [] },
+    { 통계학과: [] },
+    { 회계학과: [] },
   ],
 };
-
-// 객체를 JSON문자열로 변환
-const majorListStrings = JSON.stringify(major);
-
-// setItem   (key, value) - localStorage에 저장하기
-window.localStorage.setItem("major", majorListStrings);
+// console.log(major);
+console.log(String(Object.keys(major.engineering[0]))); // 학과 이름 찾기
 
 // 임시로 만든 게시글들  (localStorage에 저장할 객체)
 const tempPostList = [
@@ -76,8 +80,14 @@ const tempPostList = [
   },
 ];
 
+console.log(major["engineering"][0]); // major객체에서 기계공학과 객체에 접근
+
+// major에 게시글목록을 넣어준다
+major["engineering"][0].기계공학과 = tempPostList;
+console.log(major);
+
 // 객체를 JSON문자열로 변환
-const PostListStrings = JSON.stringify(tempPostList);
+const majorListStrings = JSON.stringify(major);
 
 // setItem   (key, value) - localStorage에 저장하기
-window.localStorage.setItem("postList", PostListStrings);
+window.localStorage.setItem("major", majorListStrings);
