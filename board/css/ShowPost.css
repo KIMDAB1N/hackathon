@@ -59,6 +59,7 @@
 
 
 
+
 .BoardDetail> .replDiv{
     padding: 10px;
     border: 1px solid black;
@@ -77,6 +78,13 @@
     
 }
 
+.BoardDetail .person{
+    display: flex;
+    font-size: 30px;
+    padding-right: 10px;
+    align-items: center;
+}
+
 .BoardDetail > .replDiv > .comment{
     border: 1px solid black;
     margin: 10px;
@@ -88,6 +96,9 @@
 .BoardDetail > .replDiv > .comment p{
     padding: 10px;
     font-size: 20px;
+    display: flex;
+    flex: 1;
+    align-items: center;
 }
 
 .BoardFooter{

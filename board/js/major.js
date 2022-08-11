@@ -25,12 +25,14 @@ var ul = document.querySelector("#ul"); // 게시글 목록 ul 요소에 접근 
 console.log(ul);
 
 // 텍스트 노드와 li를 PostList에 있는 만큼 생성
+// 여기서 숫자를 사용하는 것은 url로 데이터를 받기 위함
 for (var i = 0; i < majorList.engineering[0].기계공학과.length; i++) {
   var li = document.createElement("li");
   li.addEventListener("click", showPost);
   var newPostTitle = document.createTextNode(
     `${i + 1}. ${majorList.engineering[0].기계공학과[i].title}`
   );
+
   li.appendChild(newPostTitle);
   ul.appendChild(li);
 }
