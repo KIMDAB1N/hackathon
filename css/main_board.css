@@ -1,0 +1,81 @@
+.board{
+    height: 500px;
+    max-width: 1440px;
+    padding-top: 20px;
+    
+}
+
+.mainBoardWrapper{
+    position: relative;
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mainBoardTitle > button{
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+    font-size: large;
+    background-color: rgba(212, 245, 174, 100%);
+    cursor: pointer;
+}
+
+
+/* hover 마우스 올릴때와  active 클릭할 때 css */
+.mainBoardTitle > button:hover{
+    background-color: rgba(212, 245, 174, 100%);
+}
+.mainBoardTitle > button:active{
+    background-color: rgba(212, 245, 174, 100%);
+}
+/* 메인게시판 두개 그리드 */
+.mainBoard{
+    border: 1px solid rgba(212, 245, 174, 100%);
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.mainBoardTitle > h1{
+    margin-left: 20px;
+}
+.mainBoard > h2{
+    margin-left: 10px;
+    color: black;
+}
+.mainBoard > ul{
+    all:unset
+}
+
+.mainBoard > ul> li{
+    border: 1px solid black;   
+    margin: 10px;
+    padding: 10px;
+    list-style-type: none;
+    font-size: 18px;
+    line-height:20px;
+    font-weight: 200;
+    cursor: pointer;
+    color: #000000;
+    font-weight: bold;
+}
+
+.mainBoard> ul > li:hover{
+    color: rgb(214, 161, 161);
+}
+
+.mainBoard >ul> li:active{
+    color: rgb(184, 48, 48);
+}
+.All_mainBoard{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.h2_but{
+    display: flex;
+}
+#detailBtn{
+    margin-left: 8px;
+}

@@ -17,7 +17,7 @@
   </head>
   <body>
     <script src="https://www.w3schools.com/lib/w3.js"></script>
-    <heaer w3-include-html="../../base/header.html"></heaer>
+    <header w3-include-html="../../base/header.html"></header>
     <div class="BoardDetailWrapper">
       <div class="BoardDetailHeader">
         <input type="text" class="search" />
@@ -33,12 +33,13 @@
           <li>게시글 5</li>
         </ul>
       </article>
-      <div class="BoardFooter">
-        <button>글쓰기</button>
-        <button>좋아요 누른 글</button>
-        <button>내가 쓴 글</button>
-        <button>저장 해놓은 글</button>
-      </div>
+
+      <div class="buttonWrap">
+        <button class="buttonWrite">글쓰기</button>
+        <button class="buttonLike">좋아요 누른 글</button>
+        <button class="buttonMywrite">내가 쓴 글</button>
+    </div>
+    
       <div class="BoardPaging">
         <div>◀</div>
         <div><b>1</b></div>
