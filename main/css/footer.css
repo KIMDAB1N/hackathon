@@ -3,16 +3,14 @@
     margin-right: 0px;
   }
   .footer{
-    padding: 50px;
+    padding: 30px;
     color: black;
     border-top: 1px solid greenyellow;
   }
 
   .footer h6{
-    margin-top: 0;
     margin-bottom: 12px;
-    font-weight: 700;
-    font-size: 18px;
+    font-size: 23px;
     text-transform: uppercase;
     letter-spacing: 1px;
   }
@@ -49,3 +47,13 @@
     opacity: 0.8;
     font-size: 16px;
   }
+  .footer {
+    text-align: center;
+  }
+  /* 그리드 사용 2칸 배치 */
+  .grid{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    padding-bottom: 5px;
+  }
+  

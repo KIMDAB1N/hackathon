@@ -1,6 +1,7 @@
 .board{
     height: 500px;
-    width: 1440px;
+    max-width: 1440px;
+    padding-top: 20px;
 }
 
 .mainBoardWrapper{
@@ -28,18 +29,19 @@
 .mainBoardTitle > button:active{
     background-color: rgb(168, 153, 153);
 }
-
+/* 메인게시판 두개 그리드 */
 .mainBoard{
     border: 1px solid black;
     margin-left: 20px;
     margin-right: 10px;
     margin-bottom: 20px;
-
 }
-
+.mainBoardTitle > h1{
+    margin-left: 20px;
+}
 .mainBoard > h2{
     margin-left: 10px;
-    color: rgb(219, 28, 28);
+    color: rgb(96, 208, 91);
 }
 .mainBoard > ul{
     all:unset
@@ -50,7 +52,7 @@
     margin: 10px;
     padding: 10px;
     list-style-type: none;
-    font-size: 20px;
+    font-size: 18px;
     line-height:20px;
     font-weight: 200;
     cursor: pointer;
@@ -64,4 +66,8 @@
 
 .mainBoard >ul> li:active{
     color: rgb(184, 48, 48);
+}
+.All_mainBoard{
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
