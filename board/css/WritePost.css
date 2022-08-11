@@ -1,8 +1,8 @@
 .BoardDetailWrapper{
     /* border: 1px solid black; */
     position: relative;
-    width: 90%;
-    height: 100vw;
+    width: 50%;
+    height: 60vw;
     margin: 0px auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -28,14 +28,17 @@
 .BoardDetail > form .title{
     border: 1px solid black;
     width: 100%;
-    height: 40px;
+    min-height: 80px;
     margin-bottom: 20px;
 }
 .BoardDetail >form >textarea{
     width: 100%;
-    height: 70vw;
+    height: 40vw;
 }
 
 .BoardDetail > form > button{
+    padding: 10px;
+    font-size: large;
     float: right;
+    margin-top: 5px;
 }

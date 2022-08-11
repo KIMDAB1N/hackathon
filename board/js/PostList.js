@@ -26,9 +26,9 @@ const tempPostList = [
     title: "해커톤 준비하기",
     content: "게시판 만들기 너무 어렵다",
     comment: [
-      { text: "자바스크립트", userName: "이현진4" },
-      { text: "리액트와 타입스크립트", userName: "이현진3" },
-      { text: "html과 css", userName: "이현진2" },
+      { text: "자바스크립트를 이용하세요", userName: "이현진4" },
+      { text: "리액트 프레임워크를 쓰십쇼", userName: "이현진3" },
+      { text: "html css는 기본", userName: "이현진2" },
     ],
     commentCount: 0,
     like: Boolean,

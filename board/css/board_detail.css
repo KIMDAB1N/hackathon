@@ -1,12 +1,11 @@
 .BoardDetailWrapper{
     /* border: 1px solid black; */
     position: relative;
-    width: 90%;
-    height: 100vw;
+    width: 50%;
+    height: 60vw;
     margin: 0px auto;
     margin-top: 30px;
-    margin-bottom: 30px;
-    
+    margin-bottom: 30px;    
 }
 .BoardDetailHeader{
     width: auto;
@@ -45,20 +44,21 @@
 
 
 .BoardDetail > ul> li{
-    border: 1px solid rgb(150, 145, 145);   
+    border: 1px solid black;
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
     list-style-type: none;
-    font-size: 20px;
+    font-size: 30px;
     line-height:20px;
     font-weight: 200;
     cursor: pointer;
     color: #000000;
     font-weight: bold;
+    border-collapse: collapse;
 }
 
 .BoardDetail> ul > li:hover{
-    color: rgb(214, 161, 161);
+    color: rgb(107, 201, 119);
 }
 
 .BoardDetail >ul> li:active{
@@ -67,11 +67,22 @@
 
 
 .BoardFooter{
+    border-collapse: collapse;
     border: 1px solid black;
     min-height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: right;
+    
+}
+.BoardFooter .writeBtn{
+    margin-right: 10px;
+}
+.BoardFooter .likeBtn{
+    margin-right: 10px;
+}
+.BoardFooter .writtenBtn{
+    margin-right: 10px;
 }
 
 .BoardPaging{
