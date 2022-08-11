@@ -1,12 +1,11 @@
 .board{
-    height: 500px;
-    max-width: 1440px;
+    height: 420px;
+    /* max-width: 1440px; */
     padding-top: 20px;
-    
 }
 
 .mainBoardWrapper{
-    position: relative;
+    /* position: relative; */
     width: 100%;
     margin: 0px auto;
     margin-top: 30px;
@@ -14,7 +13,7 @@
 }
 
 .mainBoardTitle > button{
-    float: right;
+    /* float: right; */
     margin-right: 100px;
     margin-top: 20px;
     font-size: large;
@@ -71,11 +70,15 @@
 .All_mainBoard{
     display: grid;
     grid-template-columns: 50% 50%;
-    
+    justify-content: center;
 }
 .h2_but{
+    justify-content: space-between;
     display: flex;
+    margin-right: 10px;
+
 }
 #detailBtn{
     margin-left: 8px;
+    margin-top: 5px;
 }
