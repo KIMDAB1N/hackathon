@@ -41,7 +41,6 @@ for (var i = 0; i < majorList.engineering[0].기계공학과.length; i++) {
 // console.log(major.engineering[0].기계공학과.length);
 // console.log(major.engineering[0].기계공학과[0].title);
 // h1 요소  title 데이터 가져와서 렌더링하기
-
 const h1Title = document.querySelector("#majorTitle");
 console.log(h1Title);
 h1Title.innerText = String(Object.keys(majorList.engineering[0]));

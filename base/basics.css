@@ -7,11 +7,12 @@
     }
 /* 로고 포지션 */
 .logo{
-    width: 200px;
+    width: 70px;
     position: absolute;
     top: 0;
     z-index: 1;
     height: 77px;
+    margin-left: 30px;
 }
 .All_header{
     height: 77px;
