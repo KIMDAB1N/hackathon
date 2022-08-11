@@ -74,13 +74,15 @@
 .section input[id="slide03"]:checked ~ .slidewrap li:nth-child(3) .right {right:30px;transition:all .35s ease .5s;} 
 /* 3번 INPUT이 체크되면 1번 슬라이드의 오른쪽 화살표의 LEFT값이 변하면서 나타나도록 준 스타일 */
 
+
 /* 로고 포지션 */
 .logo{
-    width: 200px;
+    width: 70px;
     position: absolute;
     top: 0;
     z-index: 1;
     height: 77px;
+    margin-left: 30px;
 }
 /* 기본 메뉴바 css 정리 */
 
