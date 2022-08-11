@@ -1,5 +1,5 @@
 .BoardDetailWrapper{
-    /* border: 1px solid black; */
+/*     border: 5px solid black; */
     position: relative;
     width: 50%;
     height: 60vw;
@@ -22,7 +22,6 @@
     margin-bottom: 20px;
     margin-right: 5px;
     float: right;
-    
 }
 .BoardDetailHeader > input{
     width: 300px;
@@ -34,7 +33,6 @@
 
 .BoardDetail{
     border: 1px solid black;
-    border-bottom: none;
     min-height: 80%;
     padding: 20px;
 }
