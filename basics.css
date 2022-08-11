@@ -18,6 +18,10 @@
     height: 77px;
     border-bottom: 1px solid greenyellow;
 }
+
+.dropdown-heading{
+    font-size: x-large;
+} 
 /* 이거는 지워도 됩니다 예시 */
 /* .you_want{
     height: 1000px;

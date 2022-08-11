@@ -2,7 +2,7 @@
 /*     border: 5px solid black; */
     position: relative;
     width: 50%;
-    height: 60vw;
+    height: 60%;
     margin: 0px auto;
     margin-top: 30px;
     margin-bottom: 30px;    
@@ -24,7 +24,7 @@
     float: right;
 }
 .BoardDetailHeader > input{
-    width: 300px;
+    width: 40%;
     margin-top: 25px;
     margin-bottom: 20px;
     float: right;
