@@ -34,6 +34,7 @@
 
 .BoardDetail{
     border: 1px solid black;
+    border-bottom: none;
     min-height: 80%;
     padding: 20px;
 }
@@ -55,6 +56,9 @@
     color: #000000;
     font-weight: bold;
     border-collapse: collapse;
+    display: flex;
+    flex: 1;
+    align-items: center;
 }
 
 .BoardDetail> ul > li:hover{
@@ -64,16 +68,21 @@
 .BoardDetail >ul> li:active{
     color: rgb(184, 48, 48);
 }
+.BoardDetail > ul> li .person{
+    display: flex;
+    font-size: 40px;
+    padding-right: 10px;
+    align-items: center;
+}
 
 
 .BoardFooter{
-    border-collapse: collapse;
+    border-top: none;
     border: 1px solid black;
     min-height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: right;
-    
 }
 .BoardFooter .writeBtn{
     margin-right: 10px;
@@ -90,7 +99,7 @@
     flex-direction: row;
     justify-content: space-around;
     margin: 0px auto;
-    margin-top: 5px;
+    margin-top: 10px;
     width: 200px;
     
 }
